@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(226, 220, 220);
+}
+#img {
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+#name,
+#course,
+#author {
+  width: 100%;
+  padding-right: 30px;
+  border-radius: 4px;
+}
+#name:focus,
+#course:focus,
+#author:focus {
+  outline: 2px solid whitesmoke;
+}
+#line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  border-radius: 4px;
+  padding-right: 5px;
+  background-color: rgb(187, 182, 182);
+  margin-top: 5px;
+}
+#create {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 3px;
+  border: 2px solid whitesmoke;
+}
+#heading {
+  text-align: center;
+}
+#create:hover {
+  cursor: pointer;
+  box-shadow: rgb(250, 248, 246);
+}
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 20px;
+  width: 100px;
+}
+#cards {
+  margin-top: 10px;
+  display: flex;
+}
+.cardImage {
+  width: 80px;
+  height: 100px;
+  padding-top: 10px;
+}
+.flexi {
+  display: flex;
+}
