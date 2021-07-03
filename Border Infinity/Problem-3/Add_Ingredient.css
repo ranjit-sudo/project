@@ -1,6 +1,12 @@
 * {
   margin: 0px;
 }
+body {
+  height: 100%;
+}
+html {
+  height: 100%;
+}
 #header {
   background-color: purple;
   color: white;
@@ -35,7 +41,7 @@
 }
 #bodyContent {
   background-color: black;
-  height: 100vh;
+  height: 100%;
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
@@ -55,6 +61,7 @@
 #ingred {
   margin-top: 10px;
   margin-left: 50px;
+  padding-right: 10px;
   border-radius: 3px;
   width: 500px;
   border: 1px solid black;
@@ -94,4 +101,11 @@
 }
 #addRecipe:hover {
   cursor: pointer;
+}
+#ind {
+  color: white;
+}
+.checkbox {
+  margin-left: 50px;
+  margin-top: 10px;
 }
