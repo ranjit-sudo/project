@@ -41,8 +41,14 @@
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
-#bodyContent > h2 {
+#show {
   margin-left: 50px;
+  background-color: rgb(31, 32, 32);
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  padding-top: 12px;
+  text-align: center;
 }
 #addRecipe {
   background-color: purple;
@@ -57,4 +63,7 @@
 }
 #addRecipe:hover {
   cursor: pointer;
+}
+#list > h2 {
+  margin-left: 50px;
 }

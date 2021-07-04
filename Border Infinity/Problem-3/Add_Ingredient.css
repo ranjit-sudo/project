@@ -1,12 +1,6 @@
 * {
   margin: 0px;
 }
-body {
-  height: 100%;
-}
-html {
-  height: 100%;
-}
 #header {
   background-color: purple;
   color: white;
@@ -108,4 +102,8 @@ html {
 .checkbox {
   margin-left: 50px;
   margin-top: 10px;
+}
+.bodyC {
+  background-color: black;
+  padding-bottom: 70px;
 }
